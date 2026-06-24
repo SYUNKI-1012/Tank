@@ -4,6 +4,7 @@
 #include "Engine/Debug.h"
 #include "Ground.h"
 #include "Engine/Camera.h"
+#include "TankHead.h"
 
 
 namespace
@@ -34,9 +35,8 @@ Tank::~Tank()
 void Tank::Initialize()
 {
 	hModel_ = Model::Load("TankBody.fbx");
-	hModel_ = Model::Load("TankHead.fbx");
 	//assert(hNodel_ >= 0); //モデルの読み込み
-
+	Instantiate<TankHead>(this); //親をタンクにして砲台を生成
 }
 
 void Tank::Update()

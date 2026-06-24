@@ -125,6 +125,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Engine\Audio.cpp" />
     <ClCompile Include="Engine\BillBoard.cpp" />
     <ClCompile Include="Engine\BoxCollider.cpp" />
@@ -151,9 +153,12 @@
     <ClCompile Include="Ground.cpp" />
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TankHead.cpp" />
     <ClCompile Include="TestScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="Engine\Audio.h" />
     <ClInclude Include="Engine\BillBoard.h" />
     <ClInclude Include="Engine\BoxCollider.h" />
@@ -180,6 +185,7 @@
     <ClInclude Include="Ground.h" />
     <ClInclude Include="PlayScene.h" />
     <ClInclude Include="Tank.h" />
+    <ClInclude Include="TankHead.h" />
     <ClInclude Include="TestScene.h" />
   </ItemGroup>
   <ItemGroup>
