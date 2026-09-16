@@ -6,7 +6,6 @@
 #include "Engine/Camera.h"
 #include "TankHead.h"
 
-
 namespace
 {
 	XMVECTOR vFront = { 0, 0, 1, 0 }; //タンクの前方向ベクトル
@@ -15,9 +14,9 @@ namespace
 	enum CAM_TYPE
 	{
 		FIXED_CAM,		//固定カメラ
-		TPS_CAM,	//三人称視点
-		TPS_CAMROT, //三人称視点カメラ（回転）
-		FPS_CAM,	//一人称視点カメラ
+		TPS_CAM,		//三人称視点
+		TPS_CAMROT,		//三人称視点カメラ（回転）
+		FPS_CAM,		//一人称視点カメラ
 		CAM_TYPE_MAX
 	};
 }

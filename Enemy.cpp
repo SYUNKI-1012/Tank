@@ -36,7 +36,7 @@ void Enemy::Update()
 		//レイの発射位置から、地面までの距離を引いて、地面にピッタリつける
 	}
 }
-	
+
 void Enemy::Draw()
 {
 
